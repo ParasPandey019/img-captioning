@@ -1,0 +1,37 @@
+# Ignore the COCO dataset
+coco2017/
+
+# Ignore virtual environment files/folders
+venv/
+env/
+.venv/
+Include/
+Lib/
+Scripts/
+share/
+etc/
+pyvenv.cfg
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs / environment / misc
+*.log
+*.env
+*.env.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Others
+download_coco_hf*     # downloaded dataset scripts or temp files
