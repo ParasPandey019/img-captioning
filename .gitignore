@@ -7,9 +7,11 @@ env/
 .venv/
 Include/
 Lib/
-Scripts/
-share/
-etc/
+Scripts
+share
+etc
+
+
 pyvenv.cfg
 
 # Python bytecode
