@@ -3,7 +3,7 @@ import time
 import requests
 from tqdm import tqdm
 
-def download_resumable(url, dst_path, max_retries=10):
+def download_resumable(url, dst_path, max_retries=100):
     retries = 0
     while retries < max_retries:
         try:
