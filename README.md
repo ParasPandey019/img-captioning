@@ -53,8 +53,9 @@ your_project/
 - ipywidgets (for inference notebook)
 
 You can install dependencies via:
+```
 pip install torch torchvision nltk pycocotools tqdm matplotlib ipywidgets
-
+```
 Also download the COCO 2017 dataset and organize it as shown in the structure.
 
 ---
@@ -110,5 +111,6 @@ This project is open-source and available under the MIT License.
 ---
 
 Feel free to raise issues or contribute improvements!
+
 
 
